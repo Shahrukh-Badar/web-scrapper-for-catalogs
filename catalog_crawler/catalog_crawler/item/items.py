@@ -6,7 +6,8 @@
 import scrapy
 
 
-class CatalogCrawlerItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class Catalog(scrapy.Item):
+    manufacturer = scrapy.Field()
+    category = scrapy.Field()
+    model = scrapy.Field()
+    part = scrapy.Field()
