@@ -1,9 +1,9 @@
 import scrapy
 from bs4 import BeautifulSoup, Tag
 from scrapy.loader import ItemLoader
-from catalog_crawler.item.catalog_item import Catalog
-from catalog_crawler.item_loader.catalog_item_loader import CatalogLoader
-from  catalog_crawler.item_pipeline.csv_item_exporter_pipeline import CSVItemExporter
+from catalog_web_scraper.catalog_crawler.item.catalog_item import Catalog
+from catalog_web_scraper.catalog_crawler.item_loader.catalog_item_loader import CatalogLoader
+from catalog_web_scraper.catalog_crawler.item_pipeline.csv_item_exporter_pipeline import CSVItemExporter
 
 class CatalogSpider(scrapy.Spider):
     name = "catalog"

@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     # 'catalog_crawler.pipelines.CatalogCrawlerPipeline': 300,
-    'catalog_crawler.item_pipeline.csv_item_exporter_pipeline.CSVItemExporter': 300,
+    'catalog_web_scraper.catalog_crawler.item_pipeline.csv_item_exporter_pipeline.CSVItemExporter': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
