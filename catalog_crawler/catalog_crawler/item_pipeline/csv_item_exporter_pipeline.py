@@ -13,6 +13,7 @@ class CSVItemExporter:
     #     self.csv_exporter.finish_exporting()
 
     def process_item(self, item, spider):
+        s = 1
         pass
         # self.csv_exporter.export_item(item)
         # return item
