@@ -1,7 +1,7 @@
 import scrapy
 from bs4 import BeautifulSoup, Tag
-
-
+from scrapy.loader import ItemLoader
+from catalog_crawler.catalog_web_crawler.item.catalog_item import Catalog
 class CatalogSpider(scrapy.Spider):
     name = "catalog"
     base_url = 'https://www.urparts.com/'
@@ -59,4 +59,6 @@ class CatalogSpider(scrapy.Spider):
             part = part.find('a')
             part_name = part.text
             part_url = part.attrs['href']
-
+            l = ItemLoader(item=Catalog(), response=response)
+            l.add_value('manufacturer',kwargs['make'])
+            l.load_item()
