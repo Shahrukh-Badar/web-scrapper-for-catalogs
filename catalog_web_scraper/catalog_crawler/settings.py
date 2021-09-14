@@ -11,6 +11,7 @@ BOT_NAME = 'catalog_crawler'
 
 SPIDER_MODULES = ['catalog_crawler.spiders']
 NEWSPIDER_MODULE = 'catalog_crawler.spiders'
+DOWNLOAD_TIMEOUT = 360
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'catalog_crawler (+http://www.yourdomain.com)'

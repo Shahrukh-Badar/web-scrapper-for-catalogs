@@ -1,67 +1,69 @@
 import scrapy
-from bs4 import BeautifulSoup, Tag
-from scrapy.loader import ItemLoader
+from bs4 import BeautifulSoup
 from catalog_web_scraper.catalog_crawler.item.catalog_item import Catalog
 from catalog_web_scraper.catalog_crawler.item_loader.catalog_item_loader import CatalogLoader
-from catalog_web_scraper.catalog_crawler.item_pipeline.csv_item_exporter_pipeline import CSVItemExporter
+from catalog_web_scraper.catalog_crawler.models.manufacturer import Manufacturer
+from catalog_web_scraper.catalog_crawler.models.category import Category
+from catalog_web_scraper.catalog_crawler.models.model import Model
+from catalog_web_scraper.catalog_crawler.models.part import Part
+import catalog_web_scraper.catalog_crawler.util.constants as constant
+
 
 class CatalogSpider(scrapy.Spider):
-    name = "catalog"
-    base_url = 'https://www.urparts.com/'
+    name = constant.SPIDER_NAME
 
     def start_requests(self):
         urls = [
-            f'{self.base_url}index.cfm/page/catalogue'
+            constant.START_URL
         ]
         for url in urls:
-            yield scrapy.Request(url=url, callback=self.parse_makes)
+            yield scrapy.Request(url=url, callback=self.parse_manufacturer)
 
-    def parse_makes(self, response):
-        soup = BeautifulSoup(response.body, 'html.parser')
-        makes = soup.select("div.c_container.allmakes")[0].find('ul').find_all('li')
-        for make in makes[:1]:
-            make = make.find('a')
-            make_name = make.text
-            make_url = make.attrs['href']
-            category_url = f'{self.base_url}{make_url}'
-            request = scrapy.Request(url=category_url, callback=self.parse_categories)
-            request.cb_kwargs['make'] = make_name
+    def parse_manufacturer(self, response):
+        soup = BeautifulSoup(response.body, constant.PARSER)
+        manufacturers = soup.select(constant.MANUFACTURER_SELECTOR)[constant.FIRST_ELEMENT].find(
+            constant.UNORDERED_LIST).find_all(
+            constant.LIST_ITEM)
+        for manufacturer in manufacturers[:1]:
+            manufacturer = Manufacturer(manufacturer)
+            request = scrapy.Request(url=manufacturer.url, callback=self.parse_categories)
+            request.cb_kwargs[constant.MANUFACTURER] = manufacturer.name
             yield request
 
     def parse_categories(self, response, **kwargs):
-        soup = BeautifulSoup(response.body, 'html.parser')
-        categories = soup.select("div.c_container.allmakes.allcategories")[0].find('ul').find_all('li')
-        for category in categories[:1]:
-            category = category.find('a')
-            category_name = category.text
-            category_url = category.attrs['href']
-            model_url = f'{self.base_url}{category_url}'
-            request = scrapy.Request(url=model_url, callback=self.parse_models)
-            request.cb_kwargs['make'] = kwargs['make']
-            request.cb_kwargs['category'] = category_name
+        soup = BeautifulSoup(response.body, constant.PARSER)
+        categories = soup.select(constant.CATEGORY_SELECTOR)[constant.FIRST_ELEMENT].find(
+            constant.UNORDERED_LIST).find_all(
+            constant.LIST_ITEM)
+        for category in categories:
+            category = Category(category)
+            request = scrapy.Request(url=category.url, callback=self.parse_models)
+            request.cb_kwargs[constant.MANUFACTURER] = kwargs[constant.MANUFACTURER]
+            request.cb_kwargs[constant.CATEGORY] = category.name
             yield request
 
     def parse_models(self, response, **kwargs):
-        soup = BeautifulSoup(response.body, 'html.parser')
-        models = soup.select("div.c_container.allmodels")[0].find('ul').find_all('li')
-        for model in models[:1]:
-            model = model.find('a')
-            model_name = model.text
-            model_url = model.attrs['href']
-            part_url = f'{self.base_url}{model_url}'
-            request = scrapy.Request(url=part_url, callback=self.parse_parts)
-            request.cb_kwargs['make'] = kwargs['make']
-            request.cb_kwargs['category'] = kwargs['category']
-            request.cb_kwargs['model'] = model_name
+        soup = BeautifulSoup(response.body, constant.PARSER)
+        models = soup.select(constant.MODEL_SELECTOR)[constant.FIRST_ELEMENT].find(constant.UNORDERED_LIST).find_all(
+            constant.LIST_ITEM)
+        for model in models:
+            model = Model(model)
+            request = scrapy.Request(url=model.url, callback=self.parse_parts)
+            request.cb_kwargs[constant.MANUFACTURER] = kwargs[constant.MANUFACTURER]
+            request.cb_kwargs[constant.CATEGORY] = kwargs[constant.CATEGORY]
+            request.cb_kwargs[constant.MODEL] = model.name
             yield request
 
     def parse_parts(self, response, **kwargs):
-        soup = BeautifulSoup(response.body, 'html.parser')
-        parts = soup.select("div.c_container.allparts")[0].find('ul').find_all('li')
-        for part in parts[:1]:
-            part = part.find('a')
-            part_name = part.text
-            part_url = part.attrs['href']
+        soup = BeautifulSoup(response.body, constant.PARSER)
+        parts = soup.select(constant.PART_SELECTOR)[constant.FIRST_ELEMENT].find(constant.UNORDERED_LIST).find_all(
+            constant.LIST_ITEM)
+        for part in parts:
+            part = Part(part)
             l = CatalogLoader(item=Catalog(), response=response)
-            l.add_value('manufacturer',kwargs['make'])
-        l.load_item()
+            l.add_value(constant.MANUFACTURER, kwargs[constant.MANUFACTURER])
+            l.add_value(constant.CATEGORY, kwargs[constant.CATEGORY])
+            l.add_value(constant.MODEL, kwargs[constant.MODEL])
+            l.add_value(constant.PART, part.name)
+            l.add_value(constant.PART_CATEGORY, part.name)
+            yield l.load_item()

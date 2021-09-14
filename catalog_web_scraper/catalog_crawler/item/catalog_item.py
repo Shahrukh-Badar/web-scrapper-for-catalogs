@@ -11,3 +11,4 @@ class Catalog(scrapy.Item):
     category = scrapy.Field()
     model = scrapy.Field()
     part = scrapy.Field()
+    part_category = scrapy.Field()
