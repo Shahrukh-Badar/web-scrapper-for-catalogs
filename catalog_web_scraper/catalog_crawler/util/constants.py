@@ -21,4 +21,4 @@ ANCHOR = 'a'
 ### Others ###
 FIRST_ELEMENT = 0
 OUTPUT_FOLDER_NAME = 'storage'
-OUTPUT_FILE_NAME = 'output.csv'
+OUTPUT_FILE_NAME = 'crawler_output.csv'
