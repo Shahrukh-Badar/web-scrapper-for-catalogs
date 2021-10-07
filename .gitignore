@@ -131,3 +131,4 @@ dmypy.json
 # PyCharm
 .idea/
 *.csv
+/catalog_web_scraper/catalog_crawler/test/.pytest_cache/

@@ -22,3 +22,6 @@ ANCHOR = 'a'
 FIRST_ELEMENT = 0
 OUTPUT_FOLDER_NAME = 'storage'
 OUTPUT_FILE_NAME = 'crawler_output.csv'
+
+### TEST ###
+MOCK_MANUFACTURE_FILE = 'E:\Development\PyCharmProj\web-scrapper-for-catalogs\catalog_web_scraper\storage\mock_test_data\catalog_mock_data.data'
