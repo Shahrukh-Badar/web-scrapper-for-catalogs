@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+
+	<link rel="stylesheet" href="https://use.typekit.net/wvi3gkc.css">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>UrParts - Parts Catalogue</title><meta name="Description" content="Parts Catalogue" />
+		<meta name="Keywords" content="Parts Catalogue" />
+	
+			<link rel="alternate" href="https://www.urparts.com/index.cfm/page/catalogue" hreflang="en-us" />
+		
+			<link rel="alternate" href="https://www.urparts.co.uk/index.cfm/page/catalogue" hreflang="en-gb" />
+		
+			<link rel="alternate" href="https://www.urparts.ie/index.cfm/page/catalogue" hreflang="en-ie" />
+		
+			<link rel="alternate" href="https://www.urparts.ca/index.cfm/page/catalogue" hreflang="en-ca" />
+		
+			<link rel="alternate" href="https://www.urparts.co.za/index.cfm/page/catalogue" hreflang="en-za" />
+		
+			<link rel="alternate" href="https://www.urparts.co.nz/index.cfm/page/catalogue" hreflang="en-nz" />
+		
+			<link rel="alternate" href="https://www.urparts.com.au/index.cfm/page/catalogue" hreflang="en-au" />
+		
+		<link rel="alternate" href="https://www.urparts.com/index.cfm/page/catalogue" hreflang="x-default" />
+	
+	<base href="https://www.urparts.com/" />
+	<link rel="shortcut icon" href="favicon.ico?ver=2" type="image/x-icon" />
+
+	<link rel="stylesheet" href="https://www.urparts.com/css/main.css?v=3.9.4" type="text/css" media="screen" /> 
+			<meta name="apple-mobile-web-app-capable" content="yes" />
+			<link rel="apple-touch-icon" href="icons/ios/AppIcon.appiconset/Icon-App-60x60@2x.png" />
+			<link rel="apple-touch-icon" sizes="180x180" href="icons/ios/AppIcon.appiconset/Icon-App-60x60@3x.png" />
+			<link rel="apple-touch-icon" sizes="76x76" href="icons/ios/AppIcon.appiconset/Icon-App-76x76@1x.png" />
+			<link rel="apple-touch-icon" sizes="152x152" href="icons/ios/AppIcon.appiconset/Icon-App-76x76@2x.png" />
+			<link rel="apple-touch-icon" sizes="58x58" href="icons/ios/AppIcon.appiconset/Icon-App-40x40@2x.png" />
+
+			<!--[if lt IE 9]>
+				<link rel="stylesheet" type="text/css" media="all" href="css/ie8.css"/>
+				 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+			<![endif]-->
+
+			<script src="https://www.urparts.com/js/jquery-1.7.min.js" type="text/javascript"></script>
+
+			<!--[if lt IE 7]>
+				<link href="https://www.urparts.com/css/ie6.css" rel="stylesheet" type="text/css" />
+				<script type="text/javascript" src="https://www.urparts.com/js/tabs.js"></script>
+			<![endif]-->
+
+			<!--[if lt IE 10]>
+				<link rel="stylesheet" type="text/css" href="css/ie9.css"/>
+			<![endif]-->
+
+			<script type="text/javascript">
+				var j$ = jQuery.noConflict();
+			</script>
+
+		
+
+		
+
+
+		
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-PZKCMH9');</script>
+		<!-- End Google Tag Manager -->
+
+
+		
+		<script type='text/javascript'>
+			window.__wtw_lucky_ref_id = 2665375;
+			window.__wtw_lucky_site_id = 13924;
+
+			(function() {
+			var wa = document.createElement('script'); wa.type = 'text/javascript'; wa.async = true;
+			wa.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://ca158656') + '.luckyorange.com/w.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
+			})();
+		</script>
+
+	
+
+
+</head>
+
+
+<body id="catalogue" class="" data-countryCode="DE">
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZKCMH9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<div id="tutVid">
+	<a href="#" onclick="$('tutVid').style.display='none'; return false;"><img src="images/buttons/closeTut.gif" border="0" alt="x" /></a>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/tORmbfw8-dU?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+<div id="wrap">
+	<div id="wrap2">
+	
+	<div id="header" class="container-fluid">
+		<div class="row">
+			<div class="col-md-3">
+				<h1><a href="index.cfm">UrParts</a></h1>
+			</div>
+			<div class="col-md-3">
+				
+				<p class="leading">Network of Part Suppliers that <span>Quote</span> you Directly for <span>Free</span></p>
+				
+
+				
+			</div>
+			
+				<div class="col-md-6 col-xs-6 right left">
+
+				
+					<a class="btn" id="freeQuote" href="index.cfm/page/chooseyourmachinebuyer">Get a free Quote</a>
+				
+				<a class="btn" id="helpBtn" href="https://youtube.com/tORmbfw8-dU" onclick="$('tutVid').style.display='block'; return false;">Demo Movie <i class="fa fa-play-circle"></i></a>
+			</div>
+			
+		</div>
+
+		<div id="mainNav">
+			<a id="toggleMainNav" href="javascript:;" onclick="urparts.ToggleMainNav();">
+				<span class="pageTitle">
+					Catalogue 
+				</span>
+				<img src="images/buttons/navBtn.png" alt="Navigation Icon" />
+			</a>
+			<ul id="mainNavList">
+					<li class="first lev1  simpleDropdown"><a href="https://www.urparts.com/" title="Construction Parts">Construction Parts</a></li>
+	<li class="lev1  simpleDropdown"><a href="index.cfm/page/choosesellertype" title="New Supplier">New Supplier</a></li>
+	<li class="lev1  simpleDropdown"><a href="index.cfm/page/faqs" title="FAQs">FAQs</a></li>
+	<li class="lev1  simpleDropdown"><a href="index.cfm/page/aboutus" title="About Us">About Us</a></li>
+	<li class="lev1  simpleDropdown"><a href="index.cfm/page/kudos" title="Reviews">Reviews</a></li>
+	<li class="lev1  simpleDropdown"><a href="index.cfm/page/login" title="Login">Login</a></li>
+
+			</ul>
+		</div> <!--/mainNav-->
+
+	</div><!--/header-->
+
+
+
+	<div id="steps" class="fix">
+	<div class="float_center">
+		<ol class="child">
+			
+				<li class="step1"><span>1</span>
+
+					<p>Submit a Free Request on UrParts</p>
+				</li>
+			
+				<li class="step2"><span>2</span>
+
+					<p>Your Request is sent to approved parts Suppliers.</p>
+				</li>
+			
+				<li class="step3 last"><span>3</span>
+
+					<p>Receive Free quotes direct to your email</p>
+				</li>
+			
+		<ol>
+		</div>
+	</div><!--/steps-->
+
+	
+			<div id="contentHome"  class="fix">
+				<div class="catalogue_header">
+					<h2>Select the Make of Part You Require</h2>
+
+				</div>
+			</div>
+		
+	<div id="banner">
+		<div id="bannerInner">
+			<div id="bannerContent">
+				<div id="path">
+	<a href="index.cfm/page/home" title="Home">Home</a>
+		&raquo;
+		<a  href="index.cfm/page/catalogue" title="Catalogue">Catalogue</a>
+	 </div> <h1 id="pageTitle">Parts Catalogue</h1> 
+			</div><!--/bannerContent-->
+
+		</div><!--/bannerInner-->
+	</div><!--/banner-->
+
+
+<div id="contentWrapWide" >
+	
+
+
+	<div id="content">
+
+
+ 		
+
+		
+		
+
+	<div class="copy">
+
+		
+			<div class="c_container allmakes">
+				<h3>Makes</h3>
+				<ul>
+					
+						<li>
+							
+							<a href="index.cfm/page/catalogue/Ammann">Ammann </a>
+
+						</li>
+
+					
+						<li>
+							
+							<a href="index.cfm/page/catalogue/Atlas">Atlas </a>
+
+						</li>
+
+					
+						<li>
+							
+							<a href="index.cfm/page/catalogue/Atlas-Copco">Atlas-Copco </a>
+
+						</li>
+
+					
+						<li>
+							
+							<a href="index.cfm/page/catalogue/Bell">Bell </a>
+
+						</li>
+
+					
+						<li>
+							
+							<a href="index.cfm/page/catalogue/Bomag">Bomag </a>
+
+						</li>
+
+					
+						<li>
+							
+							<a href="index.cfm/page/catalogue/Doosan">Doosan </a>
+
+						</li>
+
+					
+						<li>
+							
+							<a href="index.cfm/page/catalogue/FAI">FAI </a>
+
+						</li>
+
+					
+						<li>
+							
+							<a href="index.cfm/page/catalogue/Hitachi">Hitachi </a>
+
+						</li>
+
+					
+						<li>
+							
+							<a href="index.cfm/page/catalogue/Hyundai">Hyundai </a>
+
+						</li>
+
+					
+						<li>
+							
+							<a href="index.cfm/page/catalogue/Isuzu">Isuzu </a>
+
+						</li>
+
+					
+						<li>
+							
+							<a href="index.cfm/page/catalogue/JCB">JCB </a>
+
+						</li>
+
+					
+						<li>
+							
+							<a href="index.cfm/page/catalogue/Kawasaki">Kawasaki </a>
+
+						</li>
+
+					
+						<li>
+							
+							<a href="index.cfm/page/catalogue/Komatsu">Komatsu </a>
+
+						</li>
+
+					
+						<li>
+							
+							<a href="index.cfm/page/catalogue/Mitsubishi">Mitsubishi </a>
+
+						</li>
+
+					
+						<li>
+							
+							<a href="index.cfm/page/catalogue/Moxy">Moxy </a>
+
+						</li>
+
+					
+						<li>
+							
+							<a href="index.cfm/page/catalogue/Volvo">Volvo </a>
+
+						</li>
+
+					
+				</ul>
+			</div>
+		
+
+	</div><!--/copy-->
+	</div><!--/content-->
+	
+</div><!--/contentWrap-->
+
+	
+	</div>
+	<div id="footer">
+		<div id="footerInner" class="container-fluid">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-sm-3">
+							<h4>
+	UrParts</h4>
+
+						</div>
+						<div class="col-sm-6">
+							<ul id="footerNavList">
+									<li class="first lev1 navsitemap  simpleDropdown"><a href="index.cfm/page/sitemap" title="Sitemap">Sitemap</a></li>
+	<li class="lev1 navtermsofuse  simpleDropdown"><a href="index.cfm/page/termsofuse" title="Terms of Use">Terms of Use</a></li>
+	<li class="lev1 navblog  simpleDropdown"><a href="http://blog.urparts.com" target="_blank" title="Blog" class=" external">Blog</a></li>
+	<li class="lev1 navenquiries  simpleDropdown"><a href="index.cfm/page/enquiries" title="Enquiries">Enquiries</a></li>
+	<li class="lev1 navcontactus  simpleDropdown"><a href="index.cfm/page/contactus" title="Contact Us">Contact Us</a></li>
+	<li class="lev1 navarchivedenquiries  simpleDropdown"><a href="index.cfm/page/archivedenquiries" title="Saved Parts Requests">Saved Parts Requests</a></li>
+	<li class="onPath lev1 sel navcatalogue  last simpleDropdown"><a href="index.cfm/page/catalogue" title="Catalogue">Catalogue</a></li>
+
+							</ul>
+						</div>
+						<div class="col-sm-3">
+							<p class="follow">Follow Us</p>
+							<ul id="socialLinks">
+								<li id="navtwitter"><a href="https://twitter.com/#!/urparts" target="_blank"><i class="fa fa-twitter"></i></a></li>
+								<li id="navfacebook"><a href="https://www.facebook.com/pages/Urpartscom/191353087561078" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li id="navlinkedin"><a href="https://www.linkedin.com/company/urparts-com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+								<li id="navyoutube"><a href="https://www.youtube.com/channel/UC1GD-kw69jhItZ2_-EXvTRA" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+								
+							</ul>
+
+						</div>
+					</div>
+
+
+				</div>
+				<div class="col-md-4 col-md-offset-0 col-sm-8 col-sm-offset-2 newsletter">
+					
+				</div>
+
+			</div>
+
+			<div id="bbdc">&copy; 2021 UrParts </div>
+
+		</div><!--/footerInner-->
+	</div><!--/footer-->
+
+</div><!--/wrap-->
+
+
+<style type="text/css">
+	#createPasswordForm, #retrievePasswordForm{
+		text-align: center;
+	}
+	#createPasswordForm .password + .unmask{
+		top: 40px;
+	}
+
+</style>
+
+
+
+	<script src="https://cdn.ckeditor.com/4.7.1/standard/ckeditor.js"></script>
+
+	<script src="https://www.urparts.com/js/slick.min.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/fancybox/jquery.fancybox.min.js" type="text/javascript"></script>
+
+	
+		<script src="https://www.urparts.com/js/dealerZone.js?ver=1.4" type="text/javascript"></script>
+	
+	<script src="https://www.urparts.com//js/dropzone/dropzone.min.js"></script>
+	
+
+	<script src="https://www.urparts.com/js/jquery.newsTicker.min.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/prototype.min.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/scriptaculous.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/event.simulate.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/urparts.js?v=1.5" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/mf_lightbox.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/DCLightbox.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/image.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/masonry.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/animator.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/chosen.proto.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/jquery.columnizer.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/prototip.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/mediaQueries.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/assets/addtohomescreen/src/addtohomescreen.min.js" type="text/javascript"></script>
+
+
+	<script src="https://www.urparts.com/js/tipped/bridge/bridge.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/tipped/bridge/adapters/jquery.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/tipped/bridge/adapters/prototype.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/tipped/bridge/adapters/shared.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/tipped/excanvas/excanvas.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/tipped/spinners/spinners.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/tipped/tipped/tipped.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/tipped/tipped/options-base-reset.js" type="text/javascript"></script>
+	<script src="https://www.urparts.com/js/tipped/tipped/skins.js" type="text/javascript"></script>
+
+
+
+
+<script type="text/javascript">
+	new Draggable('tutVid');
+</script>
+
+
+
+
+<div id="stickycookiePolicy"  >
+  <div class="inner">
+  	We use cookies to improve your experience on this website.
+	<a class="more" href="index.cfm/page/cookie-policy">Read More</a>
+	<a class="close" href="javascript:;" onclick="closeCookiePolicy();"><i class="fa fa-times-circle"></i></a>
+  </div><!--/inner-->
+</div><!--/stickycookiePolicy-->
+
+<script type="text/javascript">
+  document.observe('dom:loaded', function(evt) {
+    var select, selects, _i, _len, _results;
+/*     if (Prototype.Browser.IE && (Prototype.BrowserFeatures['Version'] === 6 || Prototype.BrowserFeatures['Version'] === 7)) { */
+    if (Prototype.Browser.IE) {
+      return;
+    }
+    selects = $$(".chzn-select");
+
+    _results = [];
+    for (_i = 0, _len = selects.length; _i < _len; _i++) {
+      select = selects[_i];
+      _results.push(new Chosen(select));
+    }
+    return _results;
+  });
+</script>
+
+
+
+
+	<script type="text/javascript">
+
+		
+			jQuery(document).ready(function() {
+				store.set('userLoggedIn', 'false');
+				checkLoggedInStatus();
+			});
+		
+	</script>
+
+
+</body>
+</html>
+
